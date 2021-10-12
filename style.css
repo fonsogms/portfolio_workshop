@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+header {
+  width: 80%;
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+#logo {
+  width: 40%;
+}
+#navbarOptions {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.options {
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+
+  margin-right: 50px;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+main {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button {
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+  width: 100px;
+}
+#presentationText {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#presentationImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
