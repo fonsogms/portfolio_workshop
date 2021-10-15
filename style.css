@@ -1,72 +1,72 @@
-html {
-  height: 100%;
-}
 body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
   background-image: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
 }
+
 header {
-  width: 80%;
-}
-nav > ul {
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
   justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 250px;
+  object-fit: contain;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
   list-style-type: none;
 }
-a {
-  text-decoration: none;
+
+.nav-item {
   color: whitesmoke;
-}
-#logo {
-  width: 40%;
-}
-#navbarOptions {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  justify-content: flex-end;
-  align-items: center;
-}
-.options {
   text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
-
-  margin-right: 50px;
-  font-size: 24px;
+  margin-left: 50px;
+  font-size: 32px;
   font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
 }
+
 main {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-family: "Courier New", Courier, monospace;
   display: flex;
-  width: 80%;
-  height: 80%;
-  background-color: white;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 100px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
 }
 
-button {
+section {
+  max-width: 400px;
+  margin: 0 5%;
+  text-align: center;
+}
+
+section button {
   background-color: lightskyblue;
   border: none;
   border-radius: 2px;
   height: 30px;
   width: 100px;
 }
-#presentationText {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+aside img {
+  width: 500px;
+  object-fit: contain;
 }
 
-#presentationImage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+footer {
+  align-self: center;
 }
