@@ -62,6 +62,11 @@ section button {
   width: 100px;
 }
 
+section button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 aside img {
   width: 500px;
   object-fit: contain;
